@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url("cinza.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 420px;
+  background: rgba(255, 255, 255, 0.2);
+  border: 2px solid slateblue;
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0 10px slateblue;
+  color: #fff;
+  border-radius: 10px;
+  padding: 30px 40px;
+  margin: 20px;
+}
+
+.wrapper h1 {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.wrapper .input-box {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.input-box input {
+  width: 100%;
+  height: 50px;
+  background: whitesmoke;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  font-size: 16px;
+  color: slateblue;
+  padding: 0 20px;
+}
+
+.input-box input::placeholder {
+  color: slateblue;
+}
+
+.input-box i {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+  color: slateblue;
+}
+
+.wrapper .btn-agendar-whatsapp {
+  width: 100%;
+  height: 45px;
+  background: slateblue; /* Cor de fundo do WhatsApp */
+  color: #fff; /* Cor do texto */
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease; /* Transição suave da cor de fundo */
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+@media screen and (max-width: 767px);
+
+h1 {
+  color: slateblue;
+}
+
+p {
+  color: slateblue;
+}
+
+.input-box input[type="date"]::-webkit-calendar-picker-indicator,
+.input-box input[type="time"]::-webkit-calendar-picker-indicator {
+  display: none;
+}
