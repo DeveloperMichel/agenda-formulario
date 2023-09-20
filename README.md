@@ -1,1 +1,1 @@
-# agenda-formulario
+# Este formulário foi feito para uma cliente. Layout responsivo para adaptação de aparelhos diversos. Projeto desenvolvido para uma cliente com um estúdio de Design de Sobrancelhas. Feedback totalmente positivo com o esperado do que foi pedido. Projeto simples, porém com detalhes e totalmente atraente e super rápido de ser usado. Interface ligado ao WhatsApp da cliente.
